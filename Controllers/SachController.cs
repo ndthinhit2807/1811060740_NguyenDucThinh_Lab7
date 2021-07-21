@@ -22,6 +22,7 @@ namespace _1811060740_NguyenDucThinh_Lab7.Controllers
             if (sach == null)
             {
                 return NotFound();
+                //sad
             }
             return Ok(sach);
         }
